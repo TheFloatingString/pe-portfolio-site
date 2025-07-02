@@ -29,31 +29,14 @@
                       />-->
                 </div>
             </a>
-            <a href="/hobbies">hobbies</a>
         </div>
     </header>
 
     <div class="profile">
-        <div id="profile-picture" class="profile-picture">
-            <img src="https://avatars.githubusercontent.com/u/23756857?v=4">
-        </div>
-        <h1>{{ title }}</h1>
-        <h2>About</h2>
-        <p>I'm a student based in Canada interested in machine learning and
-        robotics.</p>
-        <h2>Past Experiences</h2>
-        <ul>
-          <li>Volunteer at Robot Research group</li>
-          <li>ML research volunteer at MAIS</li>
-          <li>Hackathon Organizer at McHacks</li>
-        </ul>
-        <h2>Hobbies</h2>
-        <img src="https://en.wikipedia.org/wiki/File:Left_side_of_Flying_Pigeon.jpg">
-        <p>Biking, guitar and running.</p>
-        <h2>Education</h2>
-        <p>McGill University</p>
-        <h2>Places that I've Visited</h2>
-        <img src="./static/img/world-map.png">
+    <h1>Hobbies</h1>
+    {% for hobby in hobbies%}
+    <p>{{hobby}}</p>
+    {% endfor %}
     </div>
 </body>
 </html>
