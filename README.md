@@ -11,12 +11,12 @@ For each of these tasks, you should create an [Issue](https://docs.github.com/en
 *Note: Make sure to include a link to the Issue you're progressing on inside of your Pull Request so your reviewer knows what you're progressing on!*
 
 ### GitHub Tasks
-- [ ] Create Issues for each task below
-- [ ] Progress on each task in a new branch
-- [ ] Open a Pull Request when a task is finished to get feedback
+- [x] Create Issues for each task below
+- [x] Progress on each task in a new branch
+- [x] Open a Pull Request when a task is finished to get feedback
 
 ### Portfolio Tasks
-- [ ] Add a photo of yourself to the website
+- [x] Add a photo of yourself to the website
 - [ ] Add an "About youself" section to the website.
 - [ ] Add your previous work experiences
 - [ ] Add your hobbies (including images)
